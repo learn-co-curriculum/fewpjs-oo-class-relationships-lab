@@ -1,7 +1,4 @@
 describe( "index.js", () => {
-
-
-
   describe( "Genre", () => {
     let rock
     let pop
@@ -12,12 +9,13 @@ describe( "index.js", () => {
       soul = new Genre( "Soul" )
     } )
 
-    it( "has `name` property", () => {
+    it( "has a private `_name` property", () => {
       expect( rock._name ).to.equal( "Rock" )
       expect( pop._name ).to.equal( "Pop" )
       expect( soul._name ).to.equal( "Soul" )
     } )
   } )
+
   describe( "Artist", () => {
     let artist
     before( () => {

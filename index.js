@@ -13,8 +13,12 @@ class Song {
     return this._artist
   }
 
+  get genre() {
+    return this._artist
+  }
+
   get caption() {
-    return `${this.title} by ${this.artist.name}`
+    return `${this.title} by ${this.artist.name} (${this.genre})`
   }
 }
 
