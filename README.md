@@ -18,8 +18,8 @@ are tasked with creating three classes to represent artists, genres and songs.
 
 For this application, an individual song will keep track of its artist and genre.
 
-- The `Genre` class should take in one parameter, `name` and assign it to a
-  private property, `_name`. `Genre` should have a getter, `name` that returns
+- The `Genre` class should take in one parameter, `name`, and assign it to a
+  private property, `_name`. `Genre` should have a getter, `name`, that returns
   the private property.
 
 - The `Artist` class should also take in one parameter, `name`, and assign it
