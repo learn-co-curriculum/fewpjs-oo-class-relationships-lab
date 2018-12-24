@@ -67,7 +67,7 @@ describe( "index.js", () => {
     } )
 
     it( "has a `caption` getter that returns a String with the title and artist name", () => {
-      expect( purpleRain.caption ).to.equal( "Purple Rain by Prince" )
+      expect( purpleRain.caption ).to.equal( "'Purple Rain' by Prince (Rock)" )
     } )
 
   } )
