@@ -36,7 +36,7 @@ let queen = new Artist('Queen');
 let popRock = new Genre('Pop Rock');
 let dontStopMeNow = new Song("Don't Stop Me Now", queen, popRock);
 dontStopMeNow.caption;
-// => 'Bohemian Rhapsody by Queen (Pop Rock)'
+// => 'Don't Stop Me Now by Queen (Pop Rock)'
 ```
 
 ## Conclusion
